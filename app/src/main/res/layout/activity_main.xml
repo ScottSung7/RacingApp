@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#BD3D33">
+
+    <ImageView
+        android:id="@+id/f1_logo"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:src="@drawable/formula1_logo"
+        android:layout_centerInParent="true"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_centerInParent="true"
+        android:theme="@style/progressbar_color_white"
+        android:layout_below="@+id/f1_logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+
+</RelativeLayout>
